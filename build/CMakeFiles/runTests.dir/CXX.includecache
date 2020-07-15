@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/LeapYear.h
+
+/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/src/LeapYear.cpp
+../include/LeapYear.h
+-
+
+/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearParameterizedTest.cpp
+gtest/gtest.h
+-
+LeapYear.h
+-
+
+/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearStandaloneTests.cpp
+gtest/gtest.h
+-
+LeapYear.h
+-
+
+/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/main.cpp
+gtest/gtest.h
+-
+

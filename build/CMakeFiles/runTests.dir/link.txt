@@ -1,0 +1,1 @@
+/usr/bin/c++   -g -O0 -coverage -fprofile-arcs -ftest-coverage   -coverage -lgcov CMakeFiles/runTests.dir/test/main.cpp.o CMakeFiles/runTests.dir/src/LeapYear.cpp.o CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o  -o runTests /usr/lib/libgtest.a /usr/lib/libgtest_main.a -lpthread 
