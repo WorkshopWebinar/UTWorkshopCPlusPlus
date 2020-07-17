@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest
+CMAKE_SOURCE_DIR = /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build
+CMAKE_BINARY_DIR = /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -91,9 +91,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -160,33 +160,6 @@ src/LeapYear.s: src/LeapYear.cpp.s
 src/LeapYear.cpp.s:
 	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/src/LeapYear.cpp.s
 .PHONY : src/LeapYear.cpp.s
-
-test/LeapYearParameterizedTest.o: test/LeapYearParameterizedTest.cpp.o
-
-.PHONY : test/LeapYearParameterizedTest.o
-
-# target to build an object file
-test/LeapYearParameterizedTest.cpp.o:
-	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o
-.PHONY : test/LeapYearParameterizedTest.cpp.o
-
-test/LeapYearParameterizedTest.i: test/LeapYearParameterizedTest.cpp.i
-
-.PHONY : test/LeapYearParameterizedTest.i
-
-# target to preprocess a source file
-test/LeapYearParameterizedTest.cpp.i:
-	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.i
-.PHONY : test/LeapYearParameterizedTest.cpp.i
-
-test/LeapYearParameterizedTest.s: test/LeapYearParameterizedTest.cpp.s
-
-.PHONY : test/LeapYearParameterizedTest.s
-
-# target to generate assembly for a file
-test/LeapYearParameterizedTest.cpp.s:
-	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.s
-.PHONY : test/LeapYearParameterizedTest.cpp.s
 
 test/LeapYearStandaloneTests.o: test/LeapYearStandaloneTests.cpp.o
 
@@ -255,9 +228,6 @@ help:
 	@echo "... src/LeapYear.o"
 	@echo "... src/LeapYear.i"
 	@echo "... src/LeapYear.s"
-	@echo "... test/LeapYearParameterizedTest.o"
-	@echo "... test/LeapYearParameterizedTest.i"
-	@echo "... test/LeapYearParameterizedTest.s"
 	@echo "... test/LeapYearStandaloneTests.o"
 	@echo "... test/LeapYearStandaloneTests.i"
 	@echo "... test/LeapYearStandaloneTests.s"

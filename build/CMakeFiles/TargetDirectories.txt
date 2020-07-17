@@ -1,4 +1,4 @@
-/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/edit_cache.dir
-/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/rebuild_cache.dir
-/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/runTests.dir
-/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/test.dir
+/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/edit_cache.dir
+/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/runTests.dir
+/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/test.dir

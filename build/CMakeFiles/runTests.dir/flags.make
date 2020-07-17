@@ -6,5 +6,5 @@ CXX_FLAGS =  -g -O0 -coverage -fprofile-arcs -ftest-coverage   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/test -I/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/include 
+CXX_INCLUDES = -I/usr/local/include -I/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/test -I/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/include 
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest
+CMAKE_SOURCE_DIR = /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build
+CMAKE_BINARY_DIR = /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/runTests.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/runTests.dir/flags.make
 
 CMakeFiles/runTests.dir/test/main.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/test/main.cpp.o: ../test/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runTests.dir/test/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/test/main.cpp.o -c /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/runTests.dir/test/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/test/main.cpp.o -c /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/main.cpp
 
 CMakeFiles/runTests.dir/test/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/test/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/main.cpp > CMakeFiles/runTests.dir/test/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/main.cpp > CMakeFiles/runTests.dir/test/main.cpp.i
 
 CMakeFiles/runTests.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/test/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/main.cpp -o CMakeFiles/runTests.dir/test/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/main.cpp -o CMakeFiles/runTests.dir/test/main.cpp.s
 
 CMakeFiles/runTests.dir/test/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/runTests.dir/test/main.cpp.o.provides.build: CMakeFiles/runTests.dir/
 
 CMakeFiles/runTests.dir/src/LeapYear.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/src/LeapYear.cpp.o: ../src/LeapYear.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/src/LeapYear.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/src/LeapYear.cpp.o -c /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/src/LeapYear.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/runTests.dir/src/LeapYear.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/src/LeapYear.cpp.o -c /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/src/LeapYear.cpp
 
 CMakeFiles/runTests.dir/src/LeapYear.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/src/LeapYear.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/src/LeapYear.cpp > CMakeFiles/runTests.dir/src/LeapYear.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/src/LeapYear.cpp > CMakeFiles/runTests.dir/src/LeapYear.cpp.i
 
 CMakeFiles/runTests.dir/src/LeapYear.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/src/LeapYear.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/src/LeapYear.cpp -o CMakeFiles/runTests.dir/src/LeapYear.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/src/LeapYear.cpp -o CMakeFiles/runTests.dir/src/LeapYear.cpp.s
 
 CMakeFiles/runTests.dir/src/LeapYear.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/runTests.dir/src/LeapYear.cpp.o.provides.build: CMakeFiles/runTests.d
 
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o: CMakeFiles/runTests.dir/flags.make
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o: ../test/LeapYearStandaloneTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o -c /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearStandaloneTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o -c /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/LeapYearStandaloneTests.cpp
 
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearStandaloneTests.cpp > CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/LeapYearStandaloneTests.cpp > CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.i
 
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearStandaloneTests.cpp -o CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/test/LeapYearStandaloneTests.cpp -o CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.s
 
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o.requires:
 
@@ -129,36 +129,11 @@ CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o.provides: CMakeFiles/
 CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o.provides.build: CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o
 
 
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o: CMakeFiles/runTests.dir/flags.make
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o: ../test/LeapYearParameterizedTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o -c /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearParameterizedTest.cpp
-
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearParameterizedTest.cpp > CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.i
-
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/test/LeapYearParameterizedTest.cpp -o CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.s
-
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.requires:
-
-.PHONY : CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.requires
-
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.provides: CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.requires
-	$(MAKE) -f CMakeFiles/runTests.dir/build.make CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.provides.build
-.PHONY : CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.provides
-
-CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.provides.build: CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o
-
-
 # Object files for target runTests
 runTests_OBJECTS = \
 "CMakeFiles/runTests.dir/test/main.cpp.o" \
 "CMakeFiles/runTests.dir/src/LeapYear.cpp.o" \
-"CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o" \
-"CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o"
+"CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o"
 
 # External object files for target runTests
 runTests_EXTERNAL_OBJECTS =
@@ -166,12 +141,11 @@ runTests_EXTERNAL_OBJECTS =
 runTests: CMakeFiles/runTests.dir/test/main.cpp.o
 runTests: CMakeFiles/runTests.dir/src/LeapYear.cpp.o
 runTests: CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o
-runTests: CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o
 runTests: CMakeFiles/runTests.dir/build.make
-runTests: /usr/lib/libgtest.a
-runTests: /usr/lib/libgtest_main.a
+runTests: /usr/local/lib/libgtest.a
+runTests: /usr/local/lib/libgtest_main.a
 runTests: CMakeFiles/runTests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable runTests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable runTests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/runTests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,7 +156,6 @@ CMakeFiles/runTests.dir/build: runTests
 CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/test/main.cpp.o.requires
 CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/src/LeapYear.cpp.o.requires
 CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/test/LeapYearStandaloneTests.cpp.o.requires
-CMakeFiles/runTests.dir/requires: CMakeFiles/runTests.dir/test/LeapYearParameterizedTest.cpp.o.requires
 
 .PHONY : CMakeFiles/runTests.dir/requires
 
@@ -191,6 +164,6 @@ CMakeFiles/runTests.dir/clean:
 .PHONY : CMakeFiles/runTests.dir/clean
 
 CMakeFiles/runTests.dir/depend:
-	cd /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build /home/ubuntu18/UTWorkshop/Demo/UTWorkshopCPlusPlusGTest/build/CMakeFiles/runTests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build /home/ubuntu18/UTWorkshop/working-setup/UTWorkshopCPlusPlus/build/CMakeFiles/runTests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/runTests.dir/depend
 
